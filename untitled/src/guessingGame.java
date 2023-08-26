@@ -16,13 +16,14 @@ public class guessingGame {
         numberOfGuesses++;
 
         while (inputNumber != randomNumber) {
-            out.println("YAAAARRRGGGHHHHHH! Ye be wrong ya land lover. Try again");
+            out.println("YAAAARRRGGGHHHHHH! Ye be wrong ya' land lover. Try again");
             out.print("Enter a whole number from 1 to 10. Guess right and ye be awarded the One Piece: ");
             inputNumber = input.nextInt();
             numberOfGuesses++;
         }
         out.print("You won the One Piece after only ");
-        out.println(numberOfGuesses + " guesses. Ya scallywags.");
+        out.println(numberOfGuesses + " guesses. Ya' scallywags.");
+        
         input.close();
     }
 }
